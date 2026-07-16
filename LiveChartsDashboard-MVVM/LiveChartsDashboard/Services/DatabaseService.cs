@@ -13,7 +13,7 @@ namespace LiveChartsDashboard.Services
 
         public DatabaseService()
         {
-            // Same file DatabaseInitializer creates in Program.cs at startup.
+           
             var databasePath = Path.Combine(AppContext.BaseDirectory, "database.db");
             _connectionString = $"Data Source={databasePath}";
         }
