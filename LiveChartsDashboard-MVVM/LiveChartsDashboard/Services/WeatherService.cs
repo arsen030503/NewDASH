@@ -8,7 +8,7 @@ namespace LiveChartsDashboard.Services
     public class WeatherService
     {
         private readonly HttpClient _httpClient;
-        private const string ApiKey = "7acd69a4a5859383ba0042a5c497d472"; // move to config/user-secrets in a real app
+        private const string ApiKey = "7acd69a4a5859383ba0042a5c497d472"; 
         private const string BaseUrl = "https://api.openweathermap.org/data/2.5/weather";
 
         public WeatherService()
